@@ -1,0 +1,19 @@
+# Referencia — Dataset Factories (sección 2.4)
+#
+# Ilustra el patrón, no reemplaza las entradas explícitas de companies,
+# reviews y shuttles del Módulo 1 (esas están bien como están).
+
+# Forma tradicional: una entrada por archivo
+companies:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/companies.csv
+
+reviews:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/reviews.csv
+
+# Forma con factory: un solo patrón cubre cualquier nombre nuevo
+# que termine en "#csv" y viva en data/01_raw/
+"{dataset_name}#csv":
+  type: pandas.CSVDataset
+  filepath: data/01_raw/{dataset_name}.csv

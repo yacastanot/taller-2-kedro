@@ -1,0 +1,19 @@
+# Ejemplo de referencia — Data Catalog del Módulo 1
+#
+# Este es el catalog.yml que resulta de seguir la sección 1.6 de la guía.
+# Regístralo tú mismo escribiendo cada entrada; usa este archivo solo para
+# comparar si algo no te carga bien.
+
+companies:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/companies.csv
+
+reviews:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/reviews.csv
+
+shuttles:
+  type: pandas.ExcelDataset
+  filepath: data/01_raw/shuttles.xlsx
+  load_args:
+    engine: openpyxl

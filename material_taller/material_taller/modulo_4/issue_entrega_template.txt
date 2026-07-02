@@ -1,0 +1,56 @@
+==================================================================
+PLANTILLA DEL ISSUE DE ENTREGA — TALLER KEDRO
+==================================================================
+
+Cuando termines el Módulo 4, debes crear un Issue en TU PROPIO REPO
+de GitHub con el siguiente contenido. Esto activa la revisión.
+
+DÓNDE:
+  github.com/<tu-usuario>/taller-kedro-<tu-nombre>/issues/new
+
+TÍTULO SUGERIDO:
+  Entrega Taller Kedro
+
+CUERPO SUGERIDO (copia, pega, completa los datos entre corchetes):
+
+------------------------------------------------------------------
+
+Hola @OmarCorrea26,
+
+Te dejo mi entrega del Taller Kedro. El repo está listo para tu
+revisión.
+
+**Datos del entregable:**
+- Nombre: [Tu nombre completo]
+- URL del repo: https://github.com/[tu-usuario]/taller-kedro-[tu-nombre]
+- Última actividad (commit): [fecha del último commit]
+
+**Qué incluí:**
+- [x] Módulo 0 — entorno virtual con Kedro y Kedro-Viz
+- [x] Módulo 1 — proyecto spaceflights creado, Data Catalog registrado
+- [x] Módulo 2 — pipelines data_processing y data_science corriendo con
+      kedro run (incluye la columna price_per_passenger y el MAE del reto)
+- [x] Módulo 3 — tests con pytest en verde, repo público con .gitignore
+      y README.md
+- [x] Módulo 4 — extensión del pipeline construida con apoyo de IA
+
+**Notas / preguntas:**
+[Si tienes alguna duda específica o quieres feedback en algo en
+particular, escríbelo aquí. Si no, déjalo en blanco.]
+
+Quedo atento al feedback antes del siguiente sprint.
+
+Gracias.
+
+------------------------------------------------------------------
+
+DESPUÉS DE CREARLO:
+
+1. Verifica que @OmarCorrea26 aparece resaltado en azul (eso significa
+   que la mención funcionó y GitHub notifica automáticamente).
+2. No cierres el Issue. La revisión se deja como comentario en el
+   mismo Issue, y se cierra cuando la entrega queda aceptada.
+3. Si se piden ajustes, hazlos, haz commit + push, y comenta en el
+   mismo Issue diciendo "Listo, ajustes aplicados".
+
+==================================================================
