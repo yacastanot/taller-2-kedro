@@ -15,7 +15,7 @@ CUERPO SUGERIDO (copia, pega, completa los datos entre corchetes):
 
 ------------------------------------------------------------------
 
-Hola @OmarCorrea26,
+Hola @OmarCorrea26 y @yacastanot,
 
 Te dejo mi entrega del Taller Kedro. El repo está listo para tu
 revisión.
@@ -46,7 +46,7 @@ Gracias.
 
 DESPUÉS DE CREARLO:
 
-1. Verifica que @OmarCorrea26 aparece resaltado en azul (eso significa
+1. Verifica que @OmarCorrea26 y @yacastanot aparece resaltado en azul (eso significa
    que la mención funcionó y GitHub notifica automáticamente).
 2. No cierres el Issue. La revisión se deja como comentario en el
    mismo Issue, y se cierra cuando la entrega queda aceptada.
